@@ -1,31 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e97f475-9375-4109-853b-ad21faf14140" name="Default Changelist" comment="" />
+    <list default="true" id="7e97f475-9375-4109-853b-ad21faf14140" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/dubbosamplesechoannotationclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbodemoecho.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            <state relative-caret-position="452">
+              <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -36,11 +76,139 @@
     <option name="width" value="3864" />
     <option name="height" value="2124" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,6 +222,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7e97f475-9375-4109-853b-ad21faf14140" name="Default Changelist" comment="" />
@@ -61,16 +232,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597759030622</updated>
-      <workItem from="1597759034847" duration="239000" />
+      <workItem from="1597759034847" duration="1145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240000" />
+    <option name="totallyTimeSpent" value="1145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -110,10 +280,26 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dubbo-demos.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state relative-caret-position="452">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
