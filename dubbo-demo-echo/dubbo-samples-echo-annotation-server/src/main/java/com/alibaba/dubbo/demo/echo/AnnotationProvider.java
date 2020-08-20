@@ -30,6 +30,7 @@ public class AnnotationProvider {
 
 
     @Configuration
+    // #1 指定扫描服务的位置
     @EnableDubbo(scanBasePackages = "com.alibaba.dubbo.samples.echo")
     static class ProviderConfiguration {
 
@@ -48,6 +49,7 @@ public class AnnotationProvider {
         @Bean
         public RegistryConfig registryConfig() {
             RegistryConfig registryConfig = new RegistryConfig();
+            // #2 使用zookeeper作为注册中心，同时给出注册中心ip和端口
             registryConfig.setProtocol("zookeeper");
             registryConfig.setAddress("localhost");
             registryConfig.setPort(2181);
@@ -57,6 +59,7 @@ public class AnnotationProvider {
         @Bean
         public ProtocolConfig protocolConfig() {
             ProtocolConfig protocolConfig = new ProtocolConfig();
+            // #3 默认服务使用dubbo协议，在20880监听服务
             protocolConfig.setName("dubbo");
             protocolConfig.setPort(20880);
             return protocolConfig;
