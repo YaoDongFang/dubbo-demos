@@ -6,10 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbosamplesechoannotationserver" />
         <module name="dubbosamplesechoapi" />
+        <module name="dubbosamplesechoclient" />
+        <module name="dubbosamplesechoserver" />
         <module name="dubbosamplesechoannotationclient" />
+        <module name="dubbo-demo-echo-java-server" />
+        <module name="dubbosamplesechojavaserver" />
+        <module name="dubbosamplesechojavaclient" />
+        <module name="dubbosamplesechoannotationserver" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-demo-echo-java-server" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

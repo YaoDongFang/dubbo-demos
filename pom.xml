@@ -32,7 +32,6 @@
         <module>dubbo-samples-cache</module>
         <module>dubbo-samples-callback</module>
         <module>dubbo-samples-direct</module>
-        <module>dubbo-samples-echo</module>
         <module>dubbo-samples-generic</module>
         <module>dubbo-samples-group</module>
         <module>dubbo-samples-merge</module>
@@ -56,7 +55,7 @@
         <module>dubbo-demo-echo</module>
     </modules>
 
-    <!--com.alibaba.dubbo.demo-->
+    <!--com.alibaba.dubbo.demo.echo-->
     <dependencyManagement>
         <dependencies>
             <dependency>

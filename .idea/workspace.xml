@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e97f475-9375-4109-853b-ad21faf14140" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/dubbosamplesechoclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/java/com/alibaba/dubbo/demo/echo/EchoConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/resources/spring/echo-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-client/dubbosamplesechojavaclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-server/dubbosamplesechojavaserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/dubbosamplesechoserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/EchoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/resources/spring/echo-provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo-echo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo-echo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -10,6 +27,11 @@
     <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/target/" />
     <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-demo-echo-java-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-client/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +44,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="780">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/EchoProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,15 +65,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/AnnotationProvider.java">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/java/com/alibaba/dubbo/demo/echo/EchoConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="520">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/resources/spring/echo-consumer.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/resources/spring/echo-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="20" column="59" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -51,12 +128,12 @@
         <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1040">
@@ -81,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-api/src/main/java/com/alibaba/dubbo/demo/echo/api/EchoService.java" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/pom.xml" />
@@ -89,8 +165,18 @@
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-client/src/main/java/com/alibaba/dubbo/demo/echo/AnnotationConsumer.java" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/AnnotationProvider.java" />
         <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/AnnotationProvider.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-demo-echo-java-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/EchoProvider.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/resources/spring/echo-provider.xml" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/java/com/alibaba/dubbo/demo/echo/EchoConsumer.java" />
+        <option value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/resources/spring/echo-consumer.xml" />
       </list>
     </option>
   </component>
@@ -103,11 +189,12 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="true" />
-      <hideEmptyPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,20 +211,20 @@
               <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-samples-echo-annotation-client" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -145,26 +232,132 @@
               <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
               <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo-samples-echo-annotation-server" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="echo" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dubbo-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dubbo-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-demo-echo" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo-samples-echo-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-samples" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\dubbo-demos\dubbo-demo-echo\dubbo-samples-echo-annotation-server\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,7 +383,9 @@
       <updated>1597759030622</updated>
       <workItem from="1597759034847" duration="5216000" />
       <workItem from="1597835105358" duration="1307000" />
-      <workItem from="1597936574097" duration="1009000" />
+      <workItem from="1597936574097" duration="1984000" />
+      <workItem from="1598013515183" duration="598000" />
+      <workItem from="1598276717782" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1597760296707</created>
@@ -206,16 +401,24 @@
       <option name="project" value="LOCAL" />
       <updated>1597937573875</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加注释">
+      <created>1597937659086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597937659086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7532000" />
+    <option name="totallyTimeSpent" value="13690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="2572" height="1406" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22275259" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22683705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -255,7 +458,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建项目" />
     <MESSAGE value="基于api创建dubbo的生产者" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于api创建dubbo的生产者" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dubbo-demos.iml">
@@ -268,13 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
-          <caret line="58" column="30" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -321,9 +518,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-demo-echo-java-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-demo-echo-java-server/pom.xml" />
     <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="338">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -333,20 +532,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/java/com/alibaba/dubbo/demo/echo/AnnotationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="1300">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-java-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-annotation-server/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -354,6 +561,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1040">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/impl/EchoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/resources/spring/echo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-server/src/main/java/com/alibaba/dubbo/demo/echo/EchoProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/java/com/alibaba/dubbo/demo/echo/EchoConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dubbo-demo-echo/dubbo-samples-echo-client/src/main/resources/spring/echo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -407,7 +679,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>dubbosamplesechoannotationclient</last-edited>
+          <last-edited>dubbosamplesechoserver</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

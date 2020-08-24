@@ -16,6 +16,12 @@
         <module>dubbo-samples-echo-api</module>
         <module>dubbo-samples-echo-annotation-server</module>
         <module>dubbo-samples-echo-annotation-client</module>
+        <module>dubbo-demo-echo-java-client</module>
+        <module>dubbo-demo-echo-java-server</module>
+        <module>dubbo-samples-echo-java-server</module>
+        <module>dubbo-samples-echo-java-client</module>
+        <module>dubbo-samples-echo-server</module>
+        <module>dubbo-samples-echo-client</module>
     </modules>
 
     <dependencies>
